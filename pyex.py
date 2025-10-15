@@ -3,7 +3,6 @@ import customtkinter as ctk
 from tkinter import filedialog, messagebox
 from openpyxl import load_workbook
 
-# --- ฟังก์ชัน ---
 def load_template_values():
     """โหลดค่าจาก Sheet ต้นแบบมาแสดงใน input"""
     file_path = file_path_entry.get()
